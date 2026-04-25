@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+} 
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #FF3CAC, #784BA0, #2B86C5, #00DBDE);
+    background-size: 400% 400%;
+    animation: gradientMove 12s ease infinite;
+    overflow: hidden;
+}
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h2
+{
+    text-align: center;
+    background-color: white;
+    color: gold;
+    padding:10px;
+    font-size:55px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px;
+}
+.input-group
+{
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: rgb(50, 241, 241);
+    text-align: left;
+    padding: 90px 90px;
+    display: flex;
+    flex-direction:column ;
+    width: 250px;
+    margin-left: 30px;
+    text-decoration: black;
+    font-weight:bold;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+
+}
+.button
+ {
+  background-color: #00d2ff;
+  text-align: right;
+  margin-top: 20px;
+  margin-left: auto;
+  color: white;
+  padding: 12px 30px;
+  display: block;
+  border: none;
+  outline: none;
+  border-radius: 50px; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 210, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #3a7bd5;
+  box-shadow: 0 6px 20px rgba(58, 123, 213, 0.4);
+  letter-spacing: 2px;
+}
+  
+
+
+.signup
+{
+   font-size:35px;
+   font-family: 'Courier New', Courier, monospace;
+   border: solid;
+   border-radius: 15px;
+   border-color: transparent;
+   border-width: 5px;
+   color:black ;
+   margin-top: auto;
+  
+
+
+}
+.welcome
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 155px;
+    border-width: 15px;
+    border-left: 500px;
+    border-right: 500px;
+    border-style:hidden;
+    margin: 50px;
+    border-color:darkcyan;
+    color: black;
+    
+}
+
